@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=EB+Garamond:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,400&display=swap');
+body{
+font-family: "PlayfairDisplay", sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: larger;
+text-align:left;
+white-space: normal;
+}
+header{
+	text-align: left;
+	text-indent: 30px;
+	margin-top: 50px;
+	margin-left: 25px;
+	margin-bottom: 50px;
+	margin-right: 25px;
+}
+h1,
+h2,
+h3{
+	font-family: "PlayfairDisplay",sans-serif;
+	font-style: italic;
+	font-weight: 400;
+
+	}
+	.mark{
+		font-family: "Combo",sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		text-shadow: 3px 2px 5px crimson;
+	}
+	.curent{
+		font-family: "Combo", sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		text-align: center;
+		letter-spacing: 8px;
+		margin-top: 50px;
+		margin-left: 50px;
+		margin-bottom: 50px;
+		margin-right: 50px;
+	}
+	.curent span, a{
+		color: rgb(8, 8, 151);
+		text-decoration: line-through;
+	}
+	.block .inside{
+	font-family: "PlayfairDisplay",sans-serif;
+	font-style: italic;
+	font-weight: 400;
+	color: blueviolet;
+	}
+	.block >p{
+		color: rgba(255, 105, 180, 0.678);
+		
+	}
+	.block{
+		padding: 20px;
+		width: 2000px;
+	}
+.lorem{
+	font-size: 20px;
+	line-height: 1.5;
+	text-indent: 20px;
+	word-spacing: 11px; 
+	text-transform: lowercase;
+}
+.lorem .line{
+	text-decoration: underline;
+}
+.lorem >p{
+	color: rgb(156, 150, 97);
+	text-decoration: overline ;
+}
+.abc ~ p{
+	color: orange;
+}
+.multishadow{
+	text-shadow: 6px 8px 9px black, 12px 4px 7px yellowgreen;
+	text-transform: capitalize;
+}
+.over{
+	text-transform: uppercase;
+}
+.link{
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	margin-right: 50px;
+}
